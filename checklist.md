@@ -41,6 +41,8 @@ Code quality and performance on the client side.
 
 [ ] Local Storage/Session Cleanup: Are we clearing out temporary browser data when it’s no longer needed?
 
+[ ] error handling screens to give information/retry global one to never show stack trace
+
 ⚙️ 4. Backend Development
 Business logic, resilience, and API integrity.
 
@@ -53,6 +55,8 @@ Business logic, resilience, and API integrity.
 [ ] Error Payload Standardization: Do all error responses follow a strict schema (e.g., { error: "CODE", message: "Human readable" })?
 
 [ ] Background Processing: Are long-running tasks (sending emails, processing images) offloaded to a queue rather than blocking the HTTP response?
+
+[ ] Validation and sanitization of user inputs
 
 🗄️ 5. Database & Storage
 Data integrity, speed, and lifecycle.
@@ -85,6 +89,8 @@ Protecting data and infrastructure.
 [ ] Dependency Vulnerabilities: Have dependencies been audited for known vulnerabilities (npm audit, snyk, dependabot)?
 
 [ ] Private info:Users can only view their own data?
+
+[ ] reset password links expire?
 
 🧪 7. Testing & QA
 Verifying code before it leaves your machine.
@@ -135,6 +141,8 @@ Knowing what’s happening in production.
 [ ] APM Tracing: Is Distributed Tracing active so we can trace a request from the frontend, through the backend, to the database?
 
 [ ] Business Analytics: Are user tracking events (Amplitude, Mixpanel, Google Analytics) firing accurately without slowing down the UI thread?
+
+[ ] some kind of sampling profiler
 
 📝 11. Documentation & Handover
 Ensuring the next engineer (or future you) can understand it.
