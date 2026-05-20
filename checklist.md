@@ -67,6 +67,8 @@ Data integrity, speed, and lifecycle.
 
 [ ] Data Retention & Soft Deletes: Are we permanently deleting rows, or using soft deletes (deleted_at)? What is the archival policy for old data?
 
+[ ] Backups are in order?
+
 🔒 6. Security & Compliance
 Protecting data and infrastructure.
 
