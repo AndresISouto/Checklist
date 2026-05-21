@@ -28,6 +28,8 @@ Ensuring the interface is robust, accessible, and user-friendly.
 
 [ ] Font/Asset Loading: Are fonts and large images optimized to prevent layout shifts (CLS - Cumulative Layout Shift)?
 
+[ ] protected routes
+
 💻 3. Frontend Development
 Code quality and performance on the client side.
 
